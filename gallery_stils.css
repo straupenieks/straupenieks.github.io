@@ -1,0 +1,177 @@
+body{
+	background-image: url("atteli/fons.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+robeza{
+	margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+	
+}
+#linija1{
+	height: 30px;
+	width: 800px;
+	margin-left: 460px;
+	margin-top: -20px;
+	border-color: #f27500;
+	border-radius: 50px;
+	border-width: 0px 0px 9px 0px;
+	display: flex;
+}
+nav{
+	margin-top: 100px;
+	margin-left: 500px;
+	display: flex;
+	
+}
+.aktivaPoga{
+	background: gray;
+	border: 3px solid #e06518;
+	color: #d1cdcc;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	padding: 15px 15px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	border-radius: 30px;
+	margin-left: 4px;
+}
+
+.poga{
+	background: linear-gradient(#e06518, #ed7428);
+	border: 3px solid #e06518;
+	color: White;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	float: left;
+	border-radius: 30px;
+	margin-left: 4px;
+}
+
+.aktivaPoga:hover, .poga:hover{
+	background: gray;
+	background:gray;
+}
+.apraksts{
+	margin-left:550px;
+border-style: solid;
+	border-width: 5px;
+	border-color:gray;	
+	padding-bottom:15px;
+	height:110px;
+	width:600px;
+	display:flex;
+	align-items: center;
+	text-align: center;
+	color: orange;
+	font-size:120%;
+}
+
+
+
+.apaks-klases {
+	background: gray;
+	border: 3px solid #e06518;
+	color: White;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	padding: 15px 15px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	float: left;
+	border-radius: 30px;
+	margin-left: 4px;
+	text-align:left;
+  display: none;
+  position: absolute;
+  
+ 
+  z-index: 1;
+}
+.apaks-klases a {
+  color: white;
+  
+  text-decoration: none;
+  display: block;
+}
+.apaks-klases a:hover {background-color: #79797a;}
+
+.apaksa:hover .apaks-klases {
+	display: block;
+	margin-top: 75px;
+	
+}
+footer{
+	font-size:150%;
+	text-align:center;
+color:white;
+}
+
+.bildes{
+margin: 10px 50px;
+}
+.bildes img{
+	transition: 1s;
+	padding:15px;
+}
+.bildes img:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+	
+}
+iframe{
+	width: 1200px;
+	height: 720px;
+	border-color: #e06518;
+	border-style: solid;
+	border-width: 3px;
+	margin-top: 20px;
+	margin-left: 200px;
+	display: flex;
+
+}
+.fa-sign-out-alt:hover{
+	color: white;
+	opacity: 0.7;
+}
+
+.fa-cogs{
+	float:right;
+	color: white;
+	padding-right: 10px;
+	margin-top:-285px;
+	margin-right:40px;
+	
+}
+.fa-cogs:hover{
+color: white;
+	opacity: 0.7;
+}
+
+.fa-sign-out-alt{
+	float:right;
+	color: white;
+	padding-right: 10px;
+	margin-top:-285px;
+}
+
+
+
+
+
+
+
+
+
+
